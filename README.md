@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is a comprehensive Stock Market Streamlit Application that integrates various features to enhance trading decisions and execution. The application leverages sentiment analysis from Twitter, custom strategy creation, and provides alerts via a Telegram channel. It is also integrated with the Zerodha Kite API for direct trade placement.
+This project is a comprehensive Stock Market Streamlit Application that integrates various features to enhance trading decisions and execution. The application leverages sentiment analysis from Twitter, custom strategy creation, and provides alerts via a Telegram channel. It is also integrated with the Zerodha Kite API for direct trade placement. Rive real-time alert for your created strategy.
 
 ## Features
 
@@ -15,10 +15,9 @@ This project is a comprehensive Stock Market Streamlit Application that integrat
 
 - **Streamlit**: For creating the web application interface.
 - **Python**: The core programming language for backend logic and integration.
-- **Tweepy**: For accessing and fetching tweets from Twitter.
-- **TextBlob/VADER**: For performing sentiment analysis on fetched tweets.
+- **NLTK**: For performing sentiment analysis on fetched tweets.
 - **Telegram Bot API**: For sending alerts and notifications to Telegram.
-- **Zerodha Kite API**: For direct trade placement.
+- **Zerodha Kite API**: For direct trade placement and websocket data
 
 ## Getting Started
 

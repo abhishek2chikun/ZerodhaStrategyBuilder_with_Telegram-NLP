@@ -14,7 +14,7 @@ def schedule_checker():
         schedule.run_pending()
         sleep(1)
 
-chart_id = -740685922
+chart_id = 'xxxxx'
 
 def Alert():
 
